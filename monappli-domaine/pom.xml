@@ -75,4 +75,40 @@
       </plugins>
     </pluginManagement>
   </build>
+  
+  <dependencyManagement>
+	  <dependencies>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>monappli-domaine</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>monappli-dao</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+			<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>monappli-service</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>monappli-web</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	  </dependencies>
+  </dependencyManagement>
+  
+   <distributionManagement>
+   <snapshotRepository>
+      <id>nexus</id>
+      <url>http://localhost:8082/repository/maven-snapshots/</url>
+   </snapshotRepository>
+   <repository>
+      <id>nexus</id>
+      <url>http://localhost:8082/repository/maven-releases/</url>
+   </repository>
+</distributionManagement>
 </project>
