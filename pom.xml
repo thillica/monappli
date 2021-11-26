@@ -114,4 +114,10 @@
       <url>http://localhost:8082/repository/maven-releases/</url>
    </repository>
 </distributionManagement>
+
+<scm>
+    <connection>scm:git:git@github.com:thillica/monappli.git</connection>
+    <developerConnection>scm:git:git@github.com:thillica/monappli.git</developerConnection>
+    <url>http://somerepository.com/view.cvs</url>
+  </scm>
 </project>
