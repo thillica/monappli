@@ -103,4 +103,15 @@
     <module>monappli-dao</module>
     <module>monappli-web</module>
   </modules>
+  
+  <distributionManagement>
+   <snapshotRepository>
+      <id>nexus</id>
+      <url>http://localhost:8082/repository/maven-snapshots/</url>
+   </snapshotRepository>
+   <repository>
+      <id>nexus</id>
+      <url>http://localhost:8082/repository/maven-releases/</url>
+   </repository>
+</distributionManagement>
 </project>
