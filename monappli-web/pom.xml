@@ -4,12 +4,12 @@
   <parent>
     <artifactId>monappli</artifactId>
     <groupId>com.objis.demomaven</groupId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
   </parent>
 
   <groupId>com.objis.demomaven</groupId>
   <artifactId>monappli-web</artifactId>
-  <version>1.0</version>
+  <version>1.1-SNAPSHOT</version>
   <packaging>war</packaging>
 
   <name>monappli-web Maven Webapp</name>
