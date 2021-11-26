@@ -14,11 +14,6 @@ SET dest="C:\Program Files\Apache Software Foundation\Tomcat 9.0\webapps"
 
 copy %src% %dest%
 
-cd %tomcatpath%\bin
-
-call startup.bat
-
-start chrome http://localhost:8081/monappli-web/
 pause
 
 
