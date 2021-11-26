@@ -116,8 +116,8 @@
 </distributionManagement>
 
 <scm>
-    <connection>scm:git:git@github.com:thillica/monappli.git</connection>
-    <developerConnection>scm:git:git@github.com:thillica/monappli.git</developerConnection>
+    <connection>scm:git:git@github.com:thillica/monappli.git/master</connection>
+    <developerConnection>scm:git:git@github.com:thillica/monappli.git/master</developerConnection>
     <url>http://somerepository.com/view.cvs</url>
   </scm>
 </project>
