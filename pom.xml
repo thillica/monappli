@@ -4,7 +4,7 @@
 
   <groupId>com.objis.demomaven</groupId>
   <artifactId>monappli</artifactId>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
   <packaging>pom</packaging>
 
   <name>monappli</name>
@@ -31,22 +31,22 @@
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>monappli-domaine</artifactId>
-			<version>${project.version}</version>
+			<version>1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>monappli-dao</artifactId>
-			<version>${project.version}</version>
+			<version>1.0</version>
 		</dependency>
 			<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>monappli-service</artifactId>
-			<version>${project.version}</version>
+			<version>1.0</version>
 		</dependency>
 		<dependency>
 			<groupId>${project.groupId}</groupId>
 			<artifactId>monappli-web</artifactId>
-			<version>${project.version}</version>
+			<version>1.0</version>
 		</dependency>
 	  </dependencies>
   </dependencyManagement>
@@ -118,5 +118,6 @@
 <scm>
     <connection>scm:git:git@github.com:thillica/monappli.git</connection>
     <developerConnection>scm:git:git@github.com:thillica/monappli.git</developerConnection>
+    <tag>monappli-1.1</tag>
   </scm>
 </project>
